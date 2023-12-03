@@ -1,0 +1,26 @@
+#time {
+    color: blue;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.segment-start {
+    position: absolute;
+    content: "content";
+    display: block;
+    width: 5px;
+    height: 100%;
+    background: rgb(194, 5, 194);
+}
+
+#demo{
+    margin: 2% 18%;
+    padding:3%;
+    background:  rgb(127, 0, 127);
+    border-radius: 5px;
+    color: white;
+}
+
+body{
+    background:rgb(238, 217, 238) ;
+}
