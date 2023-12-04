@@ -1,0 +1,62 @@
+.nav{
+    position: relative;
+    padding: 20px 60px;
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0%;
+}
+
+.options{
+    display: flex;
+}
+
+.padding{
+    font-size: medium;
+    padding: 0px 20px;
+}
+
+.padding:hover{
+    color: rgb(143, 143, 254);
+    cursor: pointer;
+}
+
+.f-size-50{
+    font-size: 50px;
+    font-weight: 150;
+    margin-top: 3%;
+}
+
+.f-size-25{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 1%;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+}
+
+.div-button{
+    margin-top: 4%;
+}
+
+.blue-btn{
+font-size: 25px;
+padding: 8px 25px;
+border-radius: 3%;
+background: rgb(104, 104, 217);
+color: white;
+}
+
+.blue-btn:hover{
+    cursor: pointer;
+    background: black;
+}
