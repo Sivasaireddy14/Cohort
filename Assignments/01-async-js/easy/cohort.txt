@@ -1,0 +1,3 @@
+This is initial content of this file
+file content is empty
+bla bla
