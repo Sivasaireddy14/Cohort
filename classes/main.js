@@ -91,12 +91,12 @@ const clock=()=>{
     console.log(hh+":"+mm+":"+ss);
 }
 
-greet("Siva", "Sai")
-greetByGender("dsjdhd")
-printBetween(1, 10)
-printEven(1, 10)
-console.log(getBig([5, 9, 5, 6, 7, 4]))
-console.log(reverseArr([5, 9, 5, 6, 7, 4]));
+// greet("Siva", "Sai")
+// greetByGender("dsjdhd")
+// printBetween(1, 10)
+// printEven(1, 10)
+// console.log(getBig([5, 9, 5, 6, 7, 4]))
+// console.log(reverseArr([5, 9, 5, 6, 7, 4]));
 
 const members = [{ firstName: "John", lastName: "wick", gender: "male" },
 { firstName: "Roman", lastName: "Reigns", gender: "male" },
@@ -104,7 +104,20 @@ const members = [{ firstName: "John", lastName: "wick", gender: "male" },
 { firstName: "David", lastName: "Warner", gender: "male" }
 ]
 
-getMales(members)
-sum(2,6,displaySum)
-counter(30)
-setInterval(clock,1000)
+// getMales(members)
+// sum(2,6,displaySum)
+// counter(30)
+// setInterval(clock,1000)
+
+const getSum=(a,b)=>{
+    console.log(Date.now());
+ return ()=>{
+    console.log("in return function"+Date.now());
+    console.log(a+b)
+ }
+}
+
+var startDate=Date.now()
+console.log("start"+startDate);
+setTimeout(getSum(1,30), 5000);
+
