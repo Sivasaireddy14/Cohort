@@ -4,5 +4,14 @@
  */
 
 function sleep (seconds) {
+return new Promise((resolve,reject)=>{
+setTimeout(() => {
+    resolve()
+}, seconds);
+for(let i=0;i<1000;i++){
 
 }
+})
+}
+
+module.exports=sleep
